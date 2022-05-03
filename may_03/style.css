@@ -1,0 +1,44 @@
+.header {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    margin-top: 40px;
+    margin-left: 48px;
+    margin-bottom: 32px;
+    font-size: 32px;
+    color: #000;
+}
+
+.header h2 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    padding-right: 104px;
+    font-size: 20px;
+    columns: #000;
+    text-align: right;
+}
+
+.container {
+    background: #A2D7DD;
+}
+
+.content {
+    width: 900px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 18px;
+    /* padding: 24px 104px; */
+}
+
+.content a, span {
+    color: #c53d43;
+}
+
+.content p {
+    text-indent: 36px;
+    padding: 24px 104px;
+    margin: 0;
+}
+
