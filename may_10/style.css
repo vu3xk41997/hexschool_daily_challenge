@@ -1,0 +1,24 @@
+body {
+    background: #515151;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background: #a73836;
+    height: 400px;
+    width: 400px;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    margin: 50px;
+}
+
+.special {
+    align-self: flex-end;
+    margin-bottom: 0;
+}
