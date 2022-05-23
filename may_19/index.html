@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <!-- <div> -->
+            <label for="name">
+                姓名<input type="text" name="name" id="name" placeholder="陳小明">
+            </label>
+        <!-- </div> -->
+        <!-- <div> -->
+            <label for="email">
+                信箱<input type="email" name="email" id="email" placeholder="xxx@gmail.com">
+            </label>
+        <!-- </div> -->
+        <!-- <div> -->
+            <label for="password">
+                密碼<input type="password" name="password" id="password">
+            </label>
+        <!-- </div> -->
+        <!-- <div>  -->
+            <label for="phone">
+                電話<input type="tel" name="phone" id="phone" placeholder="0912-345-678">
+            </label>
+        <!-- </div> -->
+        <div class="sex">
+            <p>性別</p>
+            <label for="male">
+                男<input type="radio" name="sex" id="male" checked>
+            </label>
+            <label for="female">
+                女<input type="radio" name="sex" id="female">
+            </label>
+        </div>
+        <input class="btn" type="submit" value="送出" name="submit">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
